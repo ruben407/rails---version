@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>RailsStupidCoaching</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,6 +11,13 @@
   </head>
 
   <body>
+    <h1>Stupid Coaching</h1>
     <%= yield %>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript library-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
